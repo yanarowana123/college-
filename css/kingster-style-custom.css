@@ -3175,7 +3175,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_2 {
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
 }
 
 #h3_1dd7_0 {
@@ -3858,6 +3858,12 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 
 .features-item {
     width: 33%;
+}
+
+@media (max-width: 768px) {
+    .features-item {
+        width: 100%;
+    }
 }
 
 #div_1dd7_82 {
