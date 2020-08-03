@@ -843,11 +843,11 @@ body.kingster-boxed .kingster-body-wrapper {
 }
 
 .kingster-logo {
-    padding-top: 24px;
+    padding-top: 14px;
 }
 
 .kingster-logo {
-    padding-bottom: 28px;
+    padding-bottom: 18px;
 }
 
 .kingster-logo-inner {
@@ -867,15 +867,15 @@ body.kingster-boxed .kingster-body-wrapper {
 }
 
 .kingster-navigation {
-    padding-top: 37px;
+    padding-top: 17px;
 }
 
 .kingster-navigation-top {
-    top: 37px;
+    top: 17px;
 }
 
 .kingster-navigation .sf-menu > li > a {
-    padding-bottom: 34px;
+    padding-bottom: 14px;
 }
 
 .kingster-navigation .kingster-main-menu {
@@ -4459,4 +4459,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 
+.kingster-logo-inner img{
+    max-width: 150px;
+}
 
