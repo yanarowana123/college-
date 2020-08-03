@@ -1029,27 +1029,27 @@ body.single-post .kingster-sidebar-style-none, body.blog .kingster-sidebar-style
 }
 
 .kingster-body h1, .kingster-body h2, .kingster-body h3, .kingster-body h4, .kingster-body h5, .kingster-body h6, .kingster-body .kingster-title-font, .kingster-body .gdlr-core-title-font {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .kingster-navigation .sf-menu > li > a, .kingster-navigation .sf-vertical > li > a, .kingster-navigation-font {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .kingster-body, .kingster-body .gdlr-core-content-font, .kingster-body input, .kingster-body textarea, .kingster-body button, .kingster-body select, .kingster-body .kingster-content-font, .gdlr-core-audio .mejs-container * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .kingster-body .gdlr-core-info-font, .kingster-body .kingster-info-font {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .kingster-body .gdlr-core-blog-info-font, .kingster-body .kingster-blog-info-font {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .kingster-body .gdlr-core-quote-font, blockquote {
@@ -1057,7 +1057,7 @@ body.single-post .kingster-sidebar-style-none, body.blog .kingster-sidebar-style
 }
 
 .kingster-body .gdlr-core-testimonial-content {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 .kingster-body h1 {
@@ -3539,9 +3539,11 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_49 {
-    background-image: url(../upload/link-bg.jpg);
-    background-size: cover;
-    background-position: center;
+    background: #0f3e68;
+    opacity: .9;
+    /*background-image: url(../images/47033.jpg);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
 }
 
 #div_1dd7_50 {
@@ -4540,8 +4542,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
        and use this to set color instead
       -webkit-text-fill-color: white; */
     text-shadow: 1px 1px 0 #ffffff, /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
-    -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+       and nice enhancement for WebKit */ -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
     /* / Обводка маркеров */
 
 }
@@ -4582,7 +4583,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 
 
 .slider-item__text {
-    font-family: "Poppins", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
     font-size: 38px !important;
     color: #ffffff;
     position: absolute;
@@ -4619,20 +4620,24 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
     color: #0f3e68;
 }
 
-.videos{
+.videos {
     width: 100%;
     height: 100%;
     margin-right: 10px;
 }
 
-.videos iframe{
+.videos iframe {
     display: block;
     margin-bottom: 10px;
 }
 
-#h3_1dd7_28{
+#h3_1dd7_28 {
     font-size: 22px;
     font-weight: 700;
     text-transform: none;
     color: #314e85;
+}
+
+#topPopularChart {
+
 }
