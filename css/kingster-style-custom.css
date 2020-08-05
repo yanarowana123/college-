@@ -3382,7 +3382,8 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
 }
 
 #div_1dd7_30 {
-    padding: 75px 0px 40px 0px;
+    /*padding: 75px 0px 40px 0px;*/
+    padding-top: 30px;
 }
 
 #div_1dd7_31 {
@@ -4598,7 +4599,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
     color: #ffffff;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 35%;
     transform: translate(-30%, -50%);
 }
 
@@ -4644,7 +4645,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
     height: 100%;
     width: 100%;
     color:#8898BE;
-    padding: 20px 10px;
+    padding: 30px 20px;
 }
 
 .slider-item__text.documents {
@@ -4682,6 +4683,3 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
     color: #314e85;
 }
 
-#topPopularChart {
-
-}
