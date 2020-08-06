@@ -117,7 +117,7 @@ input, textarea {
 }
 
 .gdlr-core-tab-style1-horizontal .gdlr-core-tab-item-content {
-    padding: 67px 59px 45px;
+    padding: 45px 59px;
     background-repeat: no-repeat;
 }
 
@@ -4645,7 +4645,7 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
     position: absolute;
     height: 100%;
     width: 100%;
-    color:#8898BE;
+    color: #8898BE;
     padding: 30px 20px;
 }
 
@@ -4682,5 +4682,32 @@ body .gdlr-core-flipbox-item .gdlr-core-flipbox-item-image {
     font-weight: 700;
     text-transform: none;
     color: #314e85;
+}
+
+.features-item {
+    position: relative;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6
+}
+
+
+.features-item .bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    background-color: #1c2e51;
+}
+
+.features-item__content {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
