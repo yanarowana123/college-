@@ -59,6 +59,7 @@
 
     var topPopularChart = document.getElementById("topPopularChart");
     var topGrantChart = document.getElementById("topGrantChart");
+    var rareSelectedChart = document.getElementById("rareSelectedChart");
 
 
     Chart.defaults.global.defaultFontFamily = "Didact Gothic";
@@ -75,11 +76,11 @@
             {
                 data: [58, 50, 42, 39, 37],
                 backgroundColor: [
-                    "#FE718F",
+                    "#2361c4",
                     "#49AAEC",
-                    "#FED266",
+                    "#143261",
                     "#5CC5C5",
-                    "#A274FE"
+                    "#3d5378"
                 ]
             }]
     };
@@ -96,11 +97,33 @@
             {
                 data: [636, 599, 596, 526, 406],
                 backgroundColor: [
-                    "#FE718F",
+                    "#2361c4",
                     "#49AAEC",
-                    "#FED266",
+                    "#143261",
                     "#5CC5C5",
-                    "#A274FE"
+                    "#3d5378"
+                ]
+            }]
+    };
+
+    var rareSelectedChartData = {
+        labels:[
+            '0513000 — Маркетинг (салалар бойынша)',
+            '0104000 — Кәсіптік білім беру (салалар бойынша)',
+            '0502000 — Телекоммуникация лық құралдар мен тұрмыстық техникаларды жөндеу және қызмет көрсету (салалар бойынша)',
+            '0510000 — Іс қағаздарын жүргізу және мұрағаттану (қолдану аясы және салалары бойынша)',
+            '0705000 — Пайдалы қазбалардың кен орындарын жер астында өңдеу',
+
+        ],
+        datasets: [
+            {
+                data: [1, 1, 1, 1, 1],
+                backgroundColor: [
+                    "#2361c4",
+                    "#49AAEC",
+                    "#143261",
+                    "#5CC5C5",
+                    "#3d5378"
                 ]
             }]
     };
@@ -114,5 +137,13 @@
         data: topGrantChartData
     });
 
-    pieChart1.canvas.parentNode.style.width = '50%';
-    pieChart2.canvas.parentNode.style.width = '50%';
+ var pieChart3 = new Chart(rareSelectedChart, {
+     type: 'pie',
+     data: rareSelectedChartData
+ });
+
+
+
+    pieChart1.canvas.parentNode.style.width = '33%';
+    pieChart2.canvas.parentNode.style.width = '33%';
+    pieChart3.canvas.parentNode.style.width = '33%';
